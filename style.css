@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+.header_1 {
+    margin-bottom: 5px;
+}
+
 
 .header button:hover {
     background-color: #ccc;
@@ -22,6 +26,7 @@ body {
 
 .search-bar {
     display: inline;
+    float: right;
 
 }
 
@@ -32,4 +37,174 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.search-box button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border: 2px solid #FF0000;
+    text-align: right;
+}
+
+.navbar a {
+    display: inline-block;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #CCCCCC;
+}
+
+
+
+.row {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    display: inline-block;
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.header_tag {
+    background-color: rgb(230, 230, 230);
+    width: 100px;
+    height: 20px;
+    color: rgb(163, 17, 41);
+    font-weight: bold;
+
+}
+
+.images1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ig1 {
+    width: 600px;
+
+
+}
+
+.ig2 {
+    width: 600px;
+
+}
+
+.ig3 {
+    width: 600px;
+
+}
+
+.img4 {
+    width: 940px;
+}
+
+.img5 {
+    width: 650px;
+}
+
+.icon1 {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.icon2 {
+    width: 51px;
+    border-radius: 5px;
+}
+
+.icon3 {
+    width: 65px;
+    border-radius: 5px;
+}
+
+.icon5 {
+    width: 1px;
+}
+
+.icon6 {
+    margin-left: 190px;
+}
+
+
+.thumails {
+    width: 20px;
+    padding: 0 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title {
+    color: rgb(163, 17, 41);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.li {
+    font-weight: bold;
+}
+
+.col-2 {
+    width: 15%;
+}
+
+.col-3 {
+    width: 35%;
+}
+
+.text-1 {
+    border-bottom: 1px solid black;
+}
+
+.text-style-2 {
+    font-weight: bold;
+}
+
+.blog_img {
+    width: 100px;
+    height: 100px;
+}
+
+.box-header {
+    display: flex;
+}
+
+.row-1 {
+    margin-left: 100px;
 }
